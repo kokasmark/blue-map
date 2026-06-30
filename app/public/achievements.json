@@ -5,9 +5,23 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/eb/Achievement_Judas_icon.png",
         "description": "Unlocked a new character.",
         "unlock": "Defeat Satan",
-        "children": [],
+        "children": [
+            52,
+            72,
+            77,
+            107,
+            108,
+            164,
+            182,
+            195,
+            273,
+            285,
+            299,
+            446,
+            447,
+            477
+        ],
         "parents": [
-            509,
             509
         ]
     },
@@ -19,7 +33,6 @@
         "unlock": "Defeat Mom",
         "children": [],
         "parents": [
-            510,
             510
         ]
     },
@@ -29,9 +42,10 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bd/Achievement_The_Harbingers_icon.png",
         "description": "The horsemen are loose.",
         "unlock": "Defeat Mom",
-        "children": [],
+        "children": [
+            7
+        ],
         "parents": [
-            510,
             510
         ]
     },
@@ -54,7 +68,6 @@
         "unlock": "Defeat Mom's Heart 3 times",
         "children": [],
         "parents": [
-            511,
             511
         ]
     },
@@ -67,7 +80,6 @@
         "children": [],
         "parents": [
             512,
-            79,
             79
         ]
     },
@@ -79,7 +91,6 @@
         "unlock": "Defeat Mom's Heart 8 times",
         "children": [],
         "parents": [
-            511,
             511
         ]
     },
@@ -91,7 +102,6 @@
         "unlock": "Defeat Mom's Heart 9 times",
         "children": [],
         "parents": [
-            511,
             511
         ]
     },
@@ -130,7 +140,6 @@
         "unlock": "Defeat Lokii",
         "children": [],
         "parents": [
-            513,
             513
         ]
     },
@@ -140,7 +149,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e6/Achievement_Something_From_The_Future_icon.png",
         "description": "New boss in the basement!",
         "unlock": "Beat Chapter 1 40 times",
-        "children": [],
+        "children": [
+            24
+        ],
         "parents": []
     },
     {
@@ -149,7 +160,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/58/Achievement_Something_Cute_icon.png",
         "description": "New boss in the caves!",
         "unlock": "Beat Chapter 2 30 times",
-        "children": [],
+        "children": [
+            25
+        ],
         "parents": []
     },
     {
@@ -158,7 +171,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/db/Achievement_Something_Sticky_icon.png",
         "description": "New boss in the depths!",
         "unlock": "Beat Chapter 3 20 times",
-        "children": [],
+        "children": [
+            23
+        ],
         "parents": []
     },
     {
@@ -179,7 +194,6 @@
         "children": [],
         "parents": [
             514,
-            332,
             332
         ]
     },
@@ -192,7 +206,6 @@
         "children": [],
         "parents": [
             514,
-            245,
             245
         ]
     },
@@ -278,7 +291,6 @@
         "children": [],
         "parents": [
             514,
-            32,
             32
         ]
     },
@@ -308,7 +320,20 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/Achievement_Blue_Baby_Character_icon.png",
         "description": "Unlocked a new character.",
         "unlock": "Defeat Mom's Heart 10 times",
-        "children": [],
+        "children": [
+            29,
+            48,
+            73,
+            113,
+            114,
+            183,
+            196,
+            286,
+            300,
+            448,
+            449,
+            478
+        ],
         "parents": [
             511
         ]
@@ -319,7 +344,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8b/Achievement_It_Lives%21_icon.png",
         "description": "Your future's past waits.",
         "unlock": "Defeat Mom's Heart 11 times",
-        "children": [],
+        "children": [
+            273
+        ],
         "parents": [
             511
         ]
@@ -351,7 +378,6 @@
         "children": [],
         "parents": [
             509,
-            517,
             517
         ]
     },
@@ -364,7 +390,6 @@
         "children": [],
         "parents": [
             509,
-            248,
             248
         ]
     },
@@ -377,7 +402,6 @@
         "children": [],
         "parents": [
             509,
-            332,
             332
         ]
     },
@@ -390,7 +414,6 @@
         "children": [],
         "parents": [
             509,
-            245,
             245
         ]
     },
@@ -403,7 +426,6 @@
         "children": [],
         "parents": [
             518,
-            79,
             79
         ]
     },
@@ -416,7 +438,6 @@
         "children": [],
         "parents": [
             509,
-            32,
             32
         ]
     },
@@ -429,7 +450,6 @@
         "children": [],
         "parents": [
             519,
-            517,
             517
         ]
     },
@@ -442,7 +462,6 @@
         "children": [],
         "parents": [
             519,
-            332,
             332
         ]
     },
@@ -455,7 +474,6 @@
         "children": [],
         "parents": [
             518,
-            245,
             245
         ]
     },
@@ -468,7 +486,6 @@
         "children": [],
         "parents": [
             518,
-            3,
             3
         ]
     },
@@ -481,7 +498,6 @@
         "children": [],
         "parents": [
             519,
-            248,
             248
         ]
     },
@@ -494,7 +510,6 @@
         "children": [],
         "parents": [
             514,
-            334,
             334
         ]
     },
@@ -507,7 +522,6 @@
         "children": [],
         "parents": [
             519,
-            334,
             334
         ]
     },
@@ -520,7 +534,6 @@
         "children": [],
         "parents": [
             509,
-            334,
             334
         ]
     },
@@ -530,7 +543,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Achievement_The_Polaroid_icon.png",
         "description": "Unlocked a new item.",
         "unlock": "Defeat Isaac 5 times",
-        "children": [],
+        "children": [
+            280
+        ],
         "parents": [
             514
         ]
@@ -642,7 +657,6 @@
         "children": [],
         "parents": [
             512,
-            517,
             517
         ]
     },
@@ -652,10 +666,11 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/92/Achievement_Maggy%27s_Faith_icon.png",
         "description": "Unlocked a new item.",
         "unlock": "Defeat The Lamb as Magdalene",
-        "children": [],
+        "children": [
+            509
+        ],
         "parents": [
             518,
-            332,
             332
         ]
     },
@@ -668,7 +683,6 @@
         "children": [],
         "parents": [
             509,
-            3,
             3
         ]
     },
@@ -681,7 +695,6 @@
         "children": [],
         "parents": [
             518,
-            32,
             32
         ]
     },
@@ -694,7 +707,6 @@
         "children": [],
         "parents": [
             518,
-            334,
             334
         ]
     },
@@ -707,7 +719,6 @@
         "children": [],
         "parents": [
             519,
-            245,
             245
         ]
     },
@@ -720,7 +731,6 @@
         "children": [],
         "parents": [
             514,
-            248,
             248
         ]
     },
@@ -734,7 +744,6 @@
         "parents": [
             520,
             519,
-            3,
             3
         ]
     },
@@ -744,7 +753,11 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/82/Achievement_The_Negative_icon.png",
         "description": "Unlocked a new item.",
         "unlock": "Defeat Satan 5 times",
-        "children": [],
+        "children": [
+            270,
+            277,
+            280
+        ],
         "parents": [
             509
         ]
@@ -755,7 +768,20 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d4/Achievement_Azazel_icon.png",
         "description": "Unlocked a new character.",
         "unlock": "Make 3 Deals with the Devil in one run",
-        "children": [],
+        "children": [
+            9,
+            47,
+            126,
+            127,
+            128,
+            186,
+            199,
+            290,
+            304,
+            454,
+            455,
+            481
+        ],
         "parents": []
     },
     {
@@ -764,7 +790,20 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/39/Achievement_Eden_icon.png",
         "description": "Unlocked a new character.",
         "unlock": "Complete Chapter 4",
-        "children": [],
+        "children": [
+            121,
+            122,
+            123,
+            124,
+            125,
+            188,
+            201,
+            289,
+            303,
+            458,
+            459,
+            483
+        ],
         "parents": []
     },
     {
@@ -909,7 +948,6 @@
         "children": [],
         "parents": [
             512,
-            331,
             331
         ]
     },
@@ -922,7 +960,6 @@
         "children": [],
         "parents": [
             514,
-            517,
             517
         ]
     },
@@ -935,7 +972,6 @@
         "children": [],
         "parents": [
             514,
-            3,
             3
         ]
     },
@@ -948,7 +984,6 @@
         "children": [],
         "parents": [
             512,
-            3,
             3
         ]
     },
@@ -961,7 +996,6 @@
         "children": [],
         "parents": [
             512,
-            332,
             332
         ]
     },
@@ -974,7 +1008,6 @@
         "children": [],
         "parents": [
             512,
-            245,
             245
         ]
     },
@@ -987,7 +1020,6 @@
         "children": [],
         "parents": [
             518,
-            248,
             248
         ]
     },
@@ -1000,7 +1032,6 @@
         "children": [],
         "parents": [
             512,
-            248,
             248
         ]
     },
@@ -1013,7 +1044,6 @@
         "children": [],
         "parents": [
             519,
-            32,
             32
         ]
     },
@@ -1026,7 +1056,6 @@
         "children": [],
         "parents": [
             512,
-            32,
             32
         ]
     },
@@ -1039,7 +1068,6 @@
         "children": [],
         "parents": [
             512,
-            334,
             334
         ]
     },
@@ -1052,7 +1080,6 @@
         "children": [],
         "parents": [
             514,
-            331,
             331
         ]
     },
@@ -1065,7 +1092,6 @@
         "children": [],
         "parents": [
             509,
-            331,
             331
         ]
     },
@@ -1078,7 +1104,6 @@
         "children": [],
         "parents": [
             519,
-            331,
             331
         ]
     },
@@ -1091,7 +1116,6 @@
         "children": [],
         "parents": [
             518,
-            331,
             331
         ]
     },
@@ -1115,7 +1139,6 @@
         "children": [],
         "parents": [
             514,
-            81,
             81
         ]
     },
@@ -1128,7 +1151,6 @@
         "children": [],
         "parents": [
             509,
-            81,
             81
         ]
     },
@@ -1141,7 +1163,6 @@
         "children": [],
         "parents": [
             519,
-            81,
             81
         ]
     },
@@ -1154,7 +1175,6 @@
         "children": [],
         "parents": [
             518,
-            81,
             81
         ]
     },
@@ -1167,7 +1187,6 @@
         "children": [],
         "parents": [
             512,
-            81,
             81
         ]
     },
@@ -1180,7 +1199,6 @@
         "children": [],
         "parents": [
             514,
-            79,
             79
         ]
     },
@@ -1193,7 +1211,6 @@
         "children": [],
         "parents": [
             509,
-            79,
             79
         ]
     },
@@ -1206,7 +1223,6 @@
         "children": [],
         "parents": [
             519,
-            79,
             79
         ]
     },
@@ -1219,7 +1235,6 @@
         "children": [],
         "parents": [
             514,
-            250,
             250
         ]
     },
@@ -1232,7 +1247,6 @@
         "children": [],
         "parents": [
             509,
-            250,
             250
         ]
     },
@@ -1245,7 +1259,6 @@
         "children": [],
         "parents": [
             519,
-            250,
             250
         ]
     },
@@ -1258,7 +1271,6 @@
         "children": [],
         "parents": [
             518,
-            250,
             250
         ]
     },
@@ -1271,7 +1283,6 @@
         "children": [],
         "parents": [
             512,
-            250,
             250
         ]
     },
@@ -1337,7 +1348,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/53/Achievement_Ipecac_icon.png",
         "description": "Unlocked a new item.",
         "unlock": "Defeat Mom's Heart 6 times",
-        "children": [],
+        "children": [
+            384
+        ],
         "parents": [
             511
         ]
@@ -1348,7 +1361,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ee/Achievement_Experimental_Treatment_icon.png",
         "description": "Unlocked a new item.",
         "unlock": "Defeat Mom's Heart 7 times",
-        "children": [],
+        "children": [
+            146
+        ],
         "parents": [
             511
         ]
@@ -1359,7 +1374,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/94/Achievement_Krampus_icon.png",
         "description": "Unlocked another miniboss!",
         "unlock": "Take 20 items from Devil Rooms",
-        "children": [],
+        "children": [
+            143
+        ],
         "parents": []
     },
     {
@@ -1379,9 +1396,10 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2b/Achievement_Super_Meat_Boy_icon.png",
         "description": "Built him out of meat cubes.",
         "unlock": "Make a Super Meat Boy by picking up 4 copies of Cube of Meat in one run; see Unlocking Super Meat Boy & Super Bandage Girl",
-        "children": [],
+        "children": [
+            144
+        ],
         "parents": [
-            144,
             144
         ]
     },
@@ -1402,7 +1420,6 @@
         "unlock": "Pick up any 2 of the following items in a single run: Roid Rage , The Virus , Growth Hormones , Experimental Treatment , and Speed Ball ( Any 2 items that have the 'syringe' item tag )",
         "children": [],
         "parents": [
-            141,
             141
         ]
     },
@@ -1412,7 +1429,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bb/Achievement_Blood_Bag_icon.png",
         "description": "Unlocked a new item.",
         "unlock": "Use the Blood Donation Machine 30 times",
-        "children": [],
+        "children": [
+            508
+        ],
         "parents": []
     },
     {
@@ -1433,7 +1452,6 @@
         "children": [],
         "parents": [
             518,
-            517,
             517
         ]
     },
@@ -1443,7 +1461,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1f/Achievement_Rubber_Cement_icon.png",
         "description": "Unlocked a new item.",
         "unlock": "Defeat Mom's Heart 2 times",
-        "children": [],
+        "children": [
+            382
+        ],
         "parents": [
             511
         ]
@@ -1463,7 +1483,10 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dd/Achievement_Angels_icon.png",
         "description": "They are waiting.",
         "unlock": "Complete Chapter 6",
-        "children": [],
+        "children": [
+            58,
+            165
+        ],
         "parents": []
     },
     {
@@ -1474,7 +1497,6 @@
         "unlock": "Earn all 5 / 9 / 10 / 12 Completion Marks on Hard mode as The Lost",
         "children": [],
         "parents": [
-            250,
             250
         ]
     },
@@ -1488,11 +1510,7 @@
         "parents": [
             511,
             248,
-            248,
-            511,
-            519,
-            248,
-            248
+            519
         ]
     },
     {
@@ -1521,10 +1539,11 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/24/Achievement_Suicide_King_2_icon.png",
         "description": "Unlocked Challenge #7.",
         "unlock": "Defeat Mom's Heart 11 times and unlock Lazarus",
-        "children": [],
+        "children": [
+            120
+        ],
         "parents": [
             511,
-            331,
             331
         ]
     },
@@ -1534,7 +1553,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6b/Achievement_Cat_Got_Your_Tongue_icon.png",
         "description": "Unlocked Challenge #8.",
         "unlock": "Become Guppy",
-        "children": [],
+        "children": [
+            96
+        ],
         "parents": []
     },
     {
@@ -1543,7 +1564,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d6/Achievement_Demo_Man_icon.png",
         "description": "Unlocked Challenge #9.",
         "unlock": "Defeat Mom's Heart 9 times",
-        "children": [],
+        "children": [
+            97
+        ],
         "parents": [
             511
         ]
@@ -1554,7 +1577,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/45/Achievement_Cursed%21_icon.png",
         "description": "Unlocked Challenge #10.",
         "unlock": "Have 7 or more Red Heart Containers at one time",
-        "children": [],
+        "children": [
+            98
+        ],
         "parents": []
     },
     {
@@ -1563,11 +1588,12 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fd/Achievement_Glass_Cannon_icon.png",
         "description": "Unlocked Challenge #11.",
         "unlock": "Beat The Family Man (challenge #19) , defeat Lokii , and unlock Judas",
-        "children": [],
+        "children": [
+            99
+        ],
         "parents": [
             165,
             513,
-            3,
             3
         ]
     },
@@ -1577,7 +1603,10 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f5/Achievement_The_Family_Man_icon.png",
         "description": "Unlocked Challenge #19.",
         "unlock": "Pick up both Key Pieces from the Angels in one run",
-        "children": [],
+        "children": [
+            62,
+            164
+        ],
         "parents": [
             155
         ]
@@ -1599,7 +1628,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c8/Achievement_Lord_of_the_Flies_icon.png",
         "description": "You became Lord of the Flies.",
         "unlock": "Become Beelzebub",
-        "children": [],
+        "children": [
+            178
+        ],
         "parents": [
             178
         ]
@@ -1613,7 +1644,6 @@
         "children": [],
         "parents": [
             526,
-            517,
             517
         ]
     },
@@ -1626,7 +1656,6 @@
         "children": [],
         "parents": [
             526,
-            332,
             332
         ]
     },
@@ -1639,7 +1668,6 @@
         "children": [],
         "parents": [
             526,
-            245,
             245
         ]
     },
@@ -1652,7 +1680,6 @@
         "children": [],
         "parents": [
             526,
-            3,
             3
         ]
     },
@@ -1665,7 +1692,6 @@
         "children": [],
         "parents": [
             526,
-            32,
             32
         ]
     },
@@ -1678,7 +1704,6 @@
         "children": [],
         "parents": [
             526,
-            248,
             248
         ]
     },
@@ -1691,7 +1716,6 @@
         "children": [],
         "parents": [
             526,
-            334,
             334
         ]
     },
@@ -1704,7 +1728,6 @@
         "children": [],
         "parents": [
             526,
-            79,
             79
         ]
     },
@@ -1717,7 +1740,6 @@
         "children": [],
         "parents": [
             526,
-            331,
             331
         ]
     },
@@ -1730,7 +1752,6 @@
         "children": [],
         "parents": [
             526,
-            81,
             81
         ]
     },
@@ -1743,7 +1764,6 @@
         "children": [],
         "parents": [
             526,
-            250,
             250
         ]
     },
@@ -1756,7 +1776,6 @@
         "children": [],
         "parents": [
             526,
-            199,
             199
         ]
     },
@@ -1769,7 +1788,6 @@
         "children": [],
         "parents": [
             246,
-            517,
             517
         ]
     },
@@ -1782,7 +1800,6 @@
         "children": [],
         "parents": [
             246,
-            332,
             332
         ]
     },
@@ -1795,7 +1812,6 @@
         "children": [],
         "parents": [
             246,
-            245,
             245
         ]
     },
@@ -1808,7 +1824,6 @@
         "children": [],
         "parents": [
             246,
-            3,
             3
         ]
     },
@@ -1821,7 +1836,6 @@
         "children": [],
         "parents": [
             246,
-            32,
             32
         ]
     },
@@ -1834,7 +1848,6 @@
         "children": [],
         "parents": [
             246,
-            248,
             248
         ]
     },
@@ -1847,7 +1860,6 @@
         "children": [],
         "parents": [
             246,
-            334,
             334
         ]
     },
@@ -1857,10 +1869,22 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/29/Achievement_Lilith_icon.png",
         "description": "Unlocked a new character.",
         "unlock": "Defeat Ultra Greed as Azazel",
-        "children": [],
+        "children": [
+            190,
+            203,
+            218,
+            219,
+            220,
+            221,
+            222,
+            292,
+            306,
+            462,
+            463,
+            485
+        ],
         "parents": [
             246,
-            79,
             79
         ]
     },
@@ -1873,7 +1897,6 @@
         "children": [],
         "parents": [
             246,
-            331,
             331
         ]
     },
@@ -1886,7 +1909,6 @@
         "children": [],
         "parents": [
             246,
-            81,
             81
         ]
     },
@@ -1899,7 +1921,6 @@
         "children": [],
         "parents": [
             246,
-            250,
             250
         ]
     },
@@ -1912,7 +1933,6 @@
         "children": [],
         "parents": [
             246,
-            199,
             199
         ]
     },
@@ -1925,7 +1945,6 @@
         "children": [],
         "parents": [
             246,
-            251,
             251
         ]
     },
@@ -1938,7 +1957,6 @@
         "children": [],
         "parents": [
             514,
-            199,
             199
         ]
     },
@@ -1951,7 +1969,6 @@
         "children": [],
         "parents": [
             519,
-            199,
             199
         ]
     },
@@ -1964,7 +1981,6 @@
         "children": [],
         "parents": [
             509,
-            199,
             199
         ]
     },
@@ -1977,7 +1993,6 @@
         "children": [],
         "parents": [
             518,
-            199,
             199
         ]
     },
@@ -1990,7 +2005,6 @@
         "children": [],
         "parents": [
             512,
-            199,
             199
         ]
     },
@@ -2126,7 +2140,6 @@
         "children": [],
         "parents": [
             519,
-            251,
             251
         ]
     },
@@ -2139,7 +2152,6 @@
         "children": [],
         "parents": [
             518,
-            251,
             251
         ]
     },
@@ -2152,7 +2164,6 @@
         "children": [],
         "parents": [
             512,
-            251,
             251
         ]
     },
@@ -2180,7 +2191,21 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7e/Achievement_Cain_holds_Paperclip_icon.png",
         "description": "Unlocked a new starting item.",
         "unlock": "Donate 68 Coins to the Greed Donation Machine",
-        "children": [],
+        "children": [
+            21,
+            46,
+            51,
+            75,
+            110,
+            181,
+            194,
+            268,
+            284,
+            298,
+            444,
+            445,
+            476
+        ],
         "parents": []
     },
     {
@@ -2189,7 +2214,25 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/02/Achievement_Everything_is_Terrible_2%21%21%21_icon.png",
         "description": "Greed just got harder!",
         "unlock": "Donate 111 Coins to the Greed Donation Machine",
-        "children": [],
+        "children": [
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            316,
+            399,
+            422,
+            434
+        ],
         "parents": []
     },
     {
@@ -2207,7 +2250,21 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/23/Achievement_Eve_now_holds_Razor_Blade_icon.png",
         "description": "Unlocked a new starting item.",
         "unlock": "Donate 439 Coins to the Greed Donation Machine",
-        "children": [],
+        "children": [
+            44,
+            53,
+            76,
+            111,
+            112,
+            157,
+            184,
+            197,
+            288,
+            302,
+            450,
+            451,
+            479
+        ],
         "parents": []
     },
     {
@@ -2225,7 +2282,22 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/41/Achievement_Lost_holds_Holy_Mantle_icon.png",
         "description": "Unlocked a new starting item.",
         "unlock": "Donate 879 Coins to the Greed Donation Machine",
-        "children": [],
+        "children": [
+            129,
+            130,
+            131,
+            132,
+            133,
+            156,
+            189,
+            202,
+            293,
+            307,
+            329,
+            460,
+            461,
+            484
+        ],
         "parents": []
     },
     {
@@ -2234,7 +2306,17 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Achievement_Keeper_icon.png",
         "description": "Unlocked a new character.",
         "unlock": "Donate 1000 Coins to the Greed Donation Machine",
-        "children": [],
+        "children": [
+            204,
+            238,
+            239,
+            240,
+            294,
+            308,
+            464,
+            465,
+            486
+        ],
         "parents": []
     },
     {
@@ -2243,7 +2325,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c6/Achievement_XXXXXXXXL_icon.png",
         "description": "Unlocked Challenge #21.",
         "unlock": "Defeat Mom",
-        "children": [],
+        "children": [
+            224
+        ],
         "parents": [
             510
         ]
@@ -2254,7 +2338,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6d/Achievement_SPEED%21_icon.png",
         "description": "Unlocked Challenge #22.",
         "unlock": "Defeat Mom",
-        "children": [],
+        "children": [
+            225
+        ],
         "parents": [
             510
         ]
@@ -2265,7 +2351,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d0/Achievement_Blue_Bomber_icon.png",
         "description": "Unlocked Challenge #23.",
         "unlock": "Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times",
-        "children": [],
+        "children": [
+            226
+        ],
         "parents": [
             511
         ]
@@ -2276,10 +2364,11 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f1/Achievement_PAY_TO_PLAY_icon.png",
         "description": "Unlocked Challenge #24.",
         "unlock": "Defeat Isaac as Cain and destroy 10 Tinted Rocks",
-        "children": [],
+        "children": [
+            227
+        ],
         "parents": [
             514,
-            245,
             245
         ]
     },
@@ -2289,7 +2378,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/85/Achievement_Have_a_Heart_icon.png",
         "description": "Unlocked Challenge #25.",
         "unlock": "Defeat Mom",
-        "children": [],
+        "children": [
+            228
+        ],
         "parents": [
             510
         ]
@@ -2300,23 +2391,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7a/Achievement_I_RULE%21_icon.png",
         "description": "Unlocked Challenge #26.",
         "unlock": "Defeat ??? or The Lamb , defeat Satan as Isaac , and unlock The Negative Defeat ??? or The Lamb , and defeat Satan as Isaac Defeat Mega Satan and unlock The Negative",
-        "children": [],
+        "children": [
+            229
+        ],
         "parents": [
             519,
             518,
             509,
             517,
-            517,
             78,
-            78,
-            519,
-            518,
-            509,
-            517,
-            517,
-            525,
-            78,
-            78
+            525
         ]
     },
     {
@@ -2325,7 +2409,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/28/Achievement_BRAINS%21_icon.png",
         "description": "Unlocked Challenge #27.",
         "unlock": "Defeat Isaac 5 times",
-        "children": [],
+        "children": [
+            230
+        ],
         "parents": [
             514
         ]
@@ -2336,7 +2422,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Achievement_PRIDE_DAY%21_icon.png",
         "description": "Unlocked Challenge #28.",
         "unlock": "Defeat Mom",
-        "children": [],
+        "children": [
+            231
+        ],
         "parents": [
             510
         ]
@@ -2347,13 +2435,13 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d1/Achievement_Onan%27s_Streak_icon.png",
         "description": "Unlocked Challenge #29.",
         "unlock": "Defeat Mom Unlock Judas and It Lives .",
-        "children": [],
+        "children": [
+            232,
+            233
+        ],
         "parents": [
             510,
-            510,
             3,
-            3,
-            34,
             34
         ]
     },
@@ -2363,7 +2451,10 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c2/Achievement_The_Guardian_icon.png",
         "description": "Unlocked Challenge #30.",
         "unlock": "Defeat Mom",
-        "children": [],
+        "children": [
+            232,
+            233
+        ],
         "parents": [
             510
         ]
@@ -2394,12 +2485,13 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/61/Achievement_Backasswards_icon.png",
         "description": "Unlocked a new challenge.",
         "unlock": "Defeat ??? or The Lamb Defeat Mega Satan and unlock The Negative",
-        "children": [],
+        "children": [
+            331
+        ],
         "parents": [
             519,
             518,
             525,
-            78,
             78
         ]
     },
@@ -2409,7 +2501,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/30/Achievement_Aprils_fool_icon.png",
         "description": "Unlocked a new challenge.",
         "unlock": "Defeat Mom",
-        "children": [],
+        "children": [
+            332
+        ],
         "parents": [
             510
         ]
@@ -2420,7 +2514,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/df/Achievement_Pokey_Mans_icon.png",
         "description": "Unlocked a new challenge.",
         "unlock": "Defeat Mom's Heart 11 times",
-        "children": [],
+        "children": [
+            333
+        ],
         "parents": [
             511
         ]
@@ -2431,17 +2527,15 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1b/Achievement_Ultra_Hard_icon.png",
         "description": "Unlocked a new challenge.",
         "unlock": "Defeat ??? or The Lamb . Possession of The Polaroid / The Negative is required, barring getting to Dark Room through a Sacrifice Room . Defeat Mega Satan and unlock The Negative",
-        "children": [],
+        "children": [
+            334
+        ],
         "parents": [
             519,
             518,
             57,
-            57,
             78,
-            78,
-            525,
-            78,
-            78
+            525
         ]
     },
     {
@@ -2450,7 +2544,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/50/Achievement_PONG_icon.png",
         "description": "Unlocked a new challenge.",
         "unlock": "Defeat Isaac 5 times",
-        "children": [],
+        "children": [
+            335
+        ],
         "parents": [
             514
         ]
@@ -2464,7 +2560,6 @@
         "children": [],
         "parents": [
             527,
-            517,
             517
         ]
     },
@@ -2477,7 +2572,6 @@
         "children": [],
         "parents": [
             527,
-            332,
             332
         ]
     },
@@ -2490,7 +2584,6 @@
         "children": [],
         "parents": [
             527,
-            245,
             245
         ]
     },
@@ -2503,7 +2596,6 @@
         "children": [],
         "parents": [
             527,
-            3,
             3
         ]
     },
@@ -2516,7 +2608,6 @@
         "children": [],
         "parents": [
             527,
-            32,
             32
         ]
     },
@@ -2529,7 +2620,6 @@
         "children": [],
         "parents": [
             527,
-            334,
             334
         ]
     },
@@ -2542,7 +2632,6 @@
         "children": [],
         "parents": [
             527,
-            248,
             248
         ]
     },
@@ -2555,7 +2644,6 @@
         "children": [],
         "parents": [
             527,
-            81,
             81
         ]
     },
@@ -2568,7 +2656,6 @@
         "children": [],
         "parents": [
             527,
-            79,
             79
         ]
     },
@@ -2581,7 +2668,6 @@
         "children": [],
         "parents": [
             527,
-            331,
             331
         ]
     },
@@ -2594,7 +2680,6 @@
         "children": [],
         "parents": [
             527,
-            199,
             199
         ]
     },
@@ -2607,7 +2692,6 @@
         "children": [],
         "parents": [
             527,
-            250,
             250
         ]
     },
@@ -2620,7 +2704,6 @@
         "children": [],
         "parents": [
             527,
-            251,
             251
         ]
     },
@@ -2633,7 +2716,6 @@
         "children": [],
         "parents": [
             527,
-            340,
             340
         ]
     },
@@ -2646,7 +2728,6 @@
         "children": [],
         "parents": [
             528,
-            517,
             517
         ]
     },
@@ -2659,7 +2740,6 @@
         "children": [],
         "parents": [
             528,
-            332,
             332
         ]
     },
@@ -2672,7 +2752,6 @@
         "children": [],
         "parents": [
             528,
-            245,
             245
         ]
     },
@@ -2685,7 +2764,6 @@
         "children": [],
         "parents": [
             528,
-            3,
             3
         ]
     },
@@ -2698,7 +2776,6 @@
         "children": [],
         "parents": [
             528,
-            32,
             32
         ]
     },
@@ -2711,7 +2788,6 @@
         "children": [],
         "parents": [
             528,
-            334,
             334
         ]
     },
@@ -2724,7 +2800,6 @@
         "children": [],
         "parents": [
             528,
-            248,
             248
         ]
     },
@@ -2737,7 +2812,6 @@
         "children": [],
         "parents": [
             528,
-            81,
             81
         ]
     },
@@ -2750,7 +2824,6 @@
         "children": [],
         "parents": [
             528,
-            79,
             79
         ]
     },
@@ -2763,7 +2836,6 @@
         "children": [],
         "parents": [
             528,
-            331,
             331
         ]
     },
@@ -2776,7 +2848,6 @@
         "children": [],
         "parents": [
             528,
-            199,
             199
         ]
     },
@@ -2789,7 +2860,6 @@
         "children": [],
         "parents": [
             528,
-            250,
             250
         ]
     },
@@ -2802,7 +2872,6 @@
         "children": [],
         "parents": [
             528,
-            251,
             251
         ]
     },
@@ -2815,7 +2884,6 @@
         "children": [],
         "parents": [
             528,
-            340,
             340
         ]
     },
@@ -2828,7 +2896,6 @@
         "children": [],
         "parents": [
             514,
-            340,
             340
         ]
     },
@@ -2841,7 +2908,6 @@
         "children": [],
         "parents": [
             509,
-            340,
             340
         ]
     },
@@ -2854,7 +2920,6 @@
         "children": [],
         "parents": [
             519,
-            340,
             340
         ]
     },
@@ -2867,7 +2932,6 @@
         "children": [],
         "parents": [
             518,
-            340,
             340
         ]
     },
@@ -2880,7 +2944,6 @@
         "children": [],
         "parents": [
             512,
-            340,
             340
         ]
     },
@@ -2893,7 +2956,6 @@
         "children": [],
         "parents": [
             526,
-            340,
             340
         ]
     },
@@ -2906,7 +2968,6 @@
         "children": [],
         "parents": [
             246,
-            340,
             340
         ]
     },
@@ -2920,7 +2981,6 @@
         "parents": [
             511,
             515,
-            340,
             340
         ]
     },
@@ -2941,7 +3001,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c2/Achievement_Once_More_with_Feeling%21_icon.png",
         "description": "Unlocked a new item.",
         "unlock": "Complete a Victory Lap by defeating The Lamb",
-        "children": [],
+        "children": [
+            386
+        ],
         "parents": [
             518
         ]
@@ -2979,7 +3041,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Achievement_Dedication_icon.png",
         "description": "Unlocked a new item.",
         "unlock": "Participate in 31 Daily Challenges (they don't have to be consecutive; it will still count if Isaac dies in the first room)",
-        "children": [],
+        "children": [
+            384
+        ],
         "parents": []
     },
     {
@@ -3002,10 +3066,7 @@
         "children": [],
         "parents": [
             518,
-            518,
             466,
-            466,
-            522,
             522
         ]
     },
@@ -3026,7 +3087,6 @@
         "unlock": "Complete a Chapter (floors I and II) after Basement , start-to-finish, with only half a Heart total (can use The Lost )",
         "children": [],
         "parents": [
-            250,
             250
         ]
     },
@@ -3045,7 +3105,22 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/50/Achievement_Laz_Bleeds_More%21_icon.png",
         "description": "Unlocked a new starting item.",
         "unlock": "Complete Backasswards (challenge #31)",
-        "children": [],
+        "children": [
+            105,
+            116,
+            117,
+            118,
+            119,
+            160,
+            187,
+            200,
+            291,
+            305,
+            404,
+            456,
+            457,
+            482
+        ],
         "parents": [
             277
         ]
@@ -3056,7 +3131,20 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/92/Achievement_Maggy_Now_Holds_a_Pill%21_icon.png",
         "description": "Unlocked a new starting item.",
         "unlock": "Complete Aprils Fool (challenge #32)",
-        "children": [],
+        "children": [
+            20,
+            45,
+            50,
+            71,
+            109,
+            180,
+            193,
+            283,
+            297,
+            442,
+            443,
+            475
+        ],
         "parents": [
             278
         ]
@@ -3078,7 +3166,20 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Achievement_Samson_Feels_Healthy%21_icon.png",
         "description": "Unlocked a new starting item.",
         "unlock": "Complete Ultra Hard (challenge #34)",
-        "children": [],
+        "children": [
+            54,
+            55,
+            56,
+            74,
+            115,
+            185,
+            198,
+            287,
+            301,
+            452,
+            453,
+            480
+        ],
         "parents": [
             280
         ]
@@ -3131,7 +3232,21 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/03/Achievement_Apollyon_icon.png",
         "description": "Unlocked a new character.",
         "unlock": "Defeat Mega Satan",
-        "children": [],
+        "children": [
+            295,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            316,
+            318,
+            466,
+            467,
+            487
+        ],
         "parents": [
             525
         ]
@@ -3284,7 +3399,6 @@
         "unlock": "Acquire Rubber Cement 5 times",
         "children": [],
         "parents": [
-            150,
             150
         ]
     },
@@ -3306,7 +3420,6 @@
         "children": [],
         "parents": [
             140,
-            140,
             325
         ]
     },
@@ -3325,7 +3438,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e7/Achievement_Marbles_icon.png",
         "description": "Unlocked a new item.",
         "unlock": "Use 5 Gulp! pills in one run ( Placebo uses count)",
-        "children": [],
+        "children": [
+            512
+        ],
         "parents": [
             321
         ]
@@ -3363,7 +3478,22 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Achievement_The_Forgotten_icon.png",
         "description": "Unlocked a new character.",
         "unlock": "It's complicated",
-        "children": [],
+        "children": [
+            403,
+            392,
+            393,
+            394,
+            395,
+            396,
+            397,
+            398,
+            399,
+            400,
+            401,
+            468,
+            469,
+            488
+        ],
         "parents": []
     },
     {
@@ -3385,7 +3515,6 @@
         "parents": [
             511,
             515,
-            390,
             390
         ]
     },
@@ -3398,7 +3527,6 @@
         "children": [],
         "parents": [
             514,
-            390,
             390
         ]
     },
@@ -3411,7 +3539,6 @@
         "children": [],
         "parents": [
             509,
-            390,
             390
         ]
     },
@@ -3424,7 +3551,6 @@
         "children": [],
         "parents": [
             519,
-            390,
             390
         ]
     },
@@ -3437,7 +3563,6 @@
         "children": [],
         "parents": [
             518,
-            390,
             390
         ]
     },
@@ -3450,7 +3575,6 @@
         "children": [],
         "parents": [
             512,
-            390,
             390
         ]
     },
@@ -3463,7 +3587,6 @@
         "children": [],
         "parents": [
             526,
-            390,
             390
         ]
     },
@@ -3476,7 +3599,6 @@
         "children": [],
         "parents": [
             246,
-            390,
             390
         ]
     },
@@ -3489,7 +3611,6 @@
         "children": [],
         "parents": [
             528,
-            390,
             390
         ]
     },
@@ -3502,7 +3623,6 @@
         "children": [],
         "parents": [
             527,
-            390,
             390
         ]
     },
@@ -3515,7 +3635,6 @@
         "children": [],
         "parents": [
             525,
-            390,
             390
         ]
     },
@@ -3525,11 +3644,25 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e6/Achievement_Bethany_icon.png",
         "description": "Beat Hard mode as Lazarus without losing a life",
         "unlock": "Defeat Mom's Heart / It Lives! on hard mode as Lazarus , without dying at all",
-        "children": [],
+        "children": [
+            417,
+            418,
+            419,
+            420,
+            421,
+            422,
+            423,
+            424,
+            425,
+            470,
+            471,
+            489,
+            508,
+            509
+        ],
         "parents": [
             511,
             515,
-            331,
             331,
             516
         ]
@@ -3540,7 +3673,21 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3b/Achievement_Jacob_and_Esau_icon.png",
         "description": "You are just like your father...",
         "unlock": "Defeat Mother",
-        "children": [],
+        "children": [
+            439,
+            429,
+            430,
+            431,
+            432,
+            433,
+            434,
+            435,
+            436,
+            437,
+            472,
+            473,
+            490
+        ],
         "parents": [
             529
         ]
@@ -3560,7 +3707,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/26/Achievement_A_Secret_Exit_icon.png",
         "description": "Complete ??? 3 times.",
         "unlock": "Defeat Hush 3 times",
-        "children": [],
+        "children": [
+            412
+        ],
         "parents": [
             526
         ]
@@ -3615,7 +3764,6 @@
         "unlock": "Defeat all bosses in Downpour",
         "children": [],
         "parents": [
-            407,
             407
         ]
     },
@@ -3643,7 +3791,25 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/05/Achievement_Red_Key_icon.png",
         "description": "The other side is calling...",
         "unlock": "Open Mom's Chest in Home",
-        "children": [],
+        "children": [
+            474,
+            475,
+            476,
+            477,
+            478,
+            479,
+            480,
+            481,
+            482,
+            483,
+            484,
+            485,
+            486,
+            487,
+            488,
+            489,
+            490
+        ],
         "parents": []
     },
     {
@@ -3655,7 +3821,6 @@
         "children": [],
         "parents": [
             514,
-            404,
             404
         ]
     },
@@ -3668,7 +3833,6 @@
         "children": [],
         "parents": [
             509,
-            404,
             404
         ]
     },
@@ -3681,7 +3845,6 @@
         "children": [],
         "parents": [
             519,
-            404,
             404
         ]
     },
@@ -3694,7 +3857,6 @@
         "children": [],
         "parents": [
             518,
-            404,
             404
         ]
     },
@@ -3707,7 +3869,6 @@
         "children": [],
         "parents": [
             512,
-            404,
             404
         ]
     },
@@ -3720,7 +3881,6 @@
         "children": [],
         "parents": [
             246,
-            404,
             404
         ]
     },
@@ -3733,7 +3893,6 @@
         "children": [],
         "parents": [
             526,
-            404,
             404
         ]
     },
@@ -3746,7 +3905,6 @@
         "children": [],
         "parents": [
             528,
-            404,
             404
         ]
     },
@@ -3759,7 +3917,6 @@
         "children": [],
         "parents": [
             527,
-            404,
             404
         ]
     },
@@ -3772,7 +3929,6 @@
         "children": [],
         "parents": [
             514,
-            405,
             405
         ]
     },
@@ -3785,7 +3941,6 @@
         "children": [],
         "parents": [
             509,
-            405,
             405
         ]
     },
@@ -3798,7 +3953,6 @@
         "children": [],
         "parents": [
             519,
-            405,
             405
         ]
     },
@@ -3811,7 +3965,6 @@
         "children": [],
         "parents": [
             518,
-            405,
             405
         ]
     },
@@ -3824,7 +3977,6 @@
         "children": [],
         "parents": [
             512,
-            405,
             405
         ]
     },
@@ -3837,7 +3989,6 @@
         "children": [],
         "parents": [
             246,
-            405,
             405
         ]
     },
@@ -3850,7 +4001,6 @@
         "children": [],
         "parents": [
             526,
-            405,
             405
         ]
     },
@@ -3863,7 +4013,6 @@
         "children": [],
         "parents": [
             528,
-            405,
             405
         ]
     },
@@ -3876,7 +4025,6 @@
         "children": [],
         "parents": [
             527,
-            405,
             405
         ]
     },
@@ -3889,7 +4037,6 @@
         "children": [],
         "parents": [
             525,
-            405,
             405
         ]
     },
@@ -3902,7 +4049,6 @@
         "children": [],
         "parents": [
             529,
-            517,
             517
         ]
     },
@@ -3915,7 +4061,6 @@
         "children": [],
         "parents": [
             531,
-            517,
             517
         ]
     },
@@ -3928,7 +4073,6 @@
         "children": [],
         "parents": [
             529,
-            332,
             332
         ]
     },
@@ -3941,7 +4085,6 @@
         "children": [],
         "parents": [
             531,
-            332,
             332
         ]
     },
@@ -3954,7 +4097,6 @@
         "children": [],
         "parents": [
             529,
-            245,
             245
         ]
     },
@@ -3967,7 +4109,6 @@
         "children": [],
         "parents": [
             531,
-            245,
             245
         ]
     },
@@ -3980,7 +4121,6 @@
         "children": [],
         "parents": [
             529,
-            3,
             3
         ]
     },
@@ -3993,7 +4133,6 @@
         "children": [],
         "parents": [
             531,
-            3,
             3
         ]
     },
@@ -4006,7 +4145,6 @@
         "children": [],
         "parents": [
             529,
-            32,
             32
         ]
     },
@@ -4019,7 +4157,6 @@
         "children": [],
         "parents": [
             531,
-            32,
             32
         ]
     },
@@ -4032,7 +4169,6 @@
         "children": [],
         "parents": [
             529,
-            248,
             248
         ]
     },
@@ -4045,7 +4181,6 @@
         "children": [],
         "parents": [
             531,
-            248,
             248
         ]
     },
@@ -4058,7 +4193,6 @@
         "children": [],
         "parents": [
             529,
-            334,
             334
         ]
     },
@@ -4071,7 +4205,6 @@
         "children": [],
         "parents": [
             531,
-            334,
             334
         ]
     },
@@ -4084,7 +4217,6 @@
         "children": [],
         "parents": [
             529,
-            79,
             79
         ]
     },
@@ -4097,7 +4229,6 @@
         "children": [],
         "parents": [
             531,
-            79,
             79
         ]
     },
@@ -4110,7 +4241,6 @@
         "children": [],
         "parents": [
             529,
-            331,
             331
         ]
     },
@@ -4123,7 +4253,6 @@
         "children": [],
         "parents": [
             531,
-            331,
             331
         ]
     },
@@ -4136,7 +4265,6 @@
         "children": [],
         "parents": [
             529,
-            81,
             81
         ]
     },
@@ -4149,7 +4277,6 @@
         "children": [],
         "parents": [
             531,
-            81,
             81
         ]
     },
@@ -4162,7 +4289,6 @@
         "children": [],
         "parents": [
             529,
-            250,
             250
         ]
     },
@@ -4175,7 +4301,6 @@
         "children": [],
         "parents": [
             531,
-            250,
             250
         ]
     },
@@ -4188,7 +4313,6 @@
         "children": [],
         "parents": [
             529,
-            199,
             199
         ]
     },
@@ -4201,7 +4325,6 @@
         "children": [],
         "parents": [
             531,
-            199,
             199
         ]
     },
@@ -4214,7 +4337,6 @@
         "children": [],
         "parents": [
             529,
-            251,
             251
         ]
     },
@@ -4227,7 +4349,6 @@
         "children": [],
         "parents": [
             531,
-            251,
             251
         ]
     },
@@ -4237,10 +4358,11 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/07/Achievement_Lil_Portal_icon.png",
         "description": "Complete the Corpse with Apollyon.",
         "unlock": "Defeat Mother as Apollyon",
-        "children": [],
+        "children": [
+            327
+        ],
         "parents": [
             529,
-            340,
             340
         ]
     },
@@ -4253,7 +4375,6 @@
         "children": [],
         "parents": [
             531,
-            340,
             340
         ]
     },
@@ -4266,7 +4387,6 @@
         "children": [],
         "parents": [
             529,
-            390,
             390
         ]
     },
@@ -4279,7 +4399,6 @@
         "children": [],
         "parents": [
             531,
-            390,
             390
         ]
     },
@@ -4292,7 +4411,6 @@
         "children": [],
         "parents": [
             529,
-            404,
             404
         ]
     },
@@ -4305,7 +4423,6 @@
         "children": [],
         "parents": [
             531,
-            404,
             404
         ]
     },
@@ -4318,7 +4435,6 @@
         "children": [],
         "parents": [
             529,
-            405,
             405
         ]
     },
@@ -4331,7 +4447,6 @@
         "children": [],
         "parents": [
             531,
-            405,
             405
         ]
     },
@@ -4341,11 +4456,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0f/Achievement_The_Broken_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Isaac",
-        "children": [],
+        "children": [
+            491,
+            548,
+            549,
+            584,
+            601,
+            618
+        ],
         "parents": [
             415,
-            415,
-            517,
             517
         ]
     },
@@ -4355,11 +4475,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/db/Achievement_The_Dauntless_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene",
-        "children": [],
+        "children": [
+            492,
+            550,
+            551,
+            585,
+            602,
+            619
+        ],
         "parents": [
             415,
-            415,
-            332,
             332
         ]
     },
@@ -4369,11 +4494,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c8/Achievement_The_Hoarder_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
-        "children": [],
+        "children": [
+            493,
+            514,
+            552,
+            553,
+            586,
+            620
+        ],
         "parents": [
             415,
-            415,
-            245,
             245
         ]
     },
@@ -4383,11 +4513,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fc/Achievement_The_Deceiver_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Judas",
-        "children": [],
+        "children": [
+            494,
+            554,
+            555,
+            587,
+            604,
+            621
+        ],
         "parents": [
             415,
-            415,
-            3,
             3
         ]
     },
@@ -4397,11 +4532,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6b/Achievement_The_Soiled_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as ???",
-        "children": [],
+        "children": [
+            495,
+            556,
+            557,
+            588,
+            605,
+            622
+        ],
         "parents": [
             415,
-            415,
-            32,
             32
         ]
     },
@@ -4411,11 +4551,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1d/Achievement_The_Curdled_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Eve",
-        "children": [],
+        "children": [
+            496,
+            558,
+            559,
+            589,
+            606,
+            623
+        ],
         "parents": [
             415,
-            415,
-            248,
             248
         ]
     },
@@ -4425,11 +4570,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c8/Achievement_The_Savage_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Samson",
-        "children": [],
+        "children": [
+            497,
+            560,
+            561,
+            590,
+            607,
+            624
+        ],
         "parents": [
             415,
-            415,
-            334,
             334
         ]
     },
@@ -4439,11 +4589,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Achievement_The_Benighted_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Azazel",
-        "children": [],
+        "children": [
+            498,
+            562,
+            563,
+            591,
+            608,
+            625
+        ],
         "parents": [
             415,
-            415,
-            79,
             79
         ]
     },
@@ -4453,11 +4608,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c8/Achievement_The_Enigma_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus",
-        "children": [],
+        "children": [
+            499,
+            564,
+            565,
+            592,
+            609,
+            626
+        ],
         "parents": [
             415,
-            415,
-            331,
             331
         ]
     },
@@ -4467,11 +4627,18 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ed/Achievement_The_Capricious_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Eden",
-        "children": [],
+        "children": [
+            500,
+            516,
+            544,
+            566,
+            567,
+            593,
+            610,
+            627
+        ],
         "parents": [
             415,
-            415,
-            81,
             81
         ]
     },
@@ -4481,11 +4648,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/38/Achievement_The_Baleful_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as The Lost",
-        "children": [],
+        "children": [
+            501,
+            568,
+            569,
+            594,
+            611,
+            628
+        ],
         "parents": [
             415,
-            415,
-            250,
             250
         ]
     },
@@ -4495,11 +4667,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Achievement_The_Harlot_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Lilith",
-        "children": [],
+        "children": [
+            502,
+            570,
+            571,
+            595,
+            612,
+            629
+        ],
         "parents": [
             415,
-            415,
-            199,
             199
         ]
     },
@@ -4509,11 +4686,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Achievement_The_Miser_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Keeper",
-        "children": [],
+        "children": [
+            503,
+            572,
+            573,
+            596,
+            613,
+            630
+        ],
         "parents": [
             415,
-            415,
-            251,
             251
         ]
     },
@@ -4523,11 +4705,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5f/Achievement_The_Empty_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon",
-        "children": [],
+        "children": [
+            504,
+            574,
+            575,
+            597,
+            614,
+            631
+        ],
         "parents": [
             415,
-            415,
-            340,
             340
         ]
     },
@@ -4537,11 +4724,17 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c6/Achievement_The_Fettered_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten",
-        "children": [],
+        "children": [
+            505,
+            513,
+            576,
+            577,
+            598,
+            615,
+            632
+        ],
         "parents": [
             415,
-            415,
-            390,
             390
         ]
     },
@@ -4551,11 +4744,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/72/Achievement_The_Zealot_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Bethany",
-        "children": [],
+        "children": [
+            506,
+            578,
+            579,
+            599,
+            616,
+            633
+        ],
         "parents": [
             415,
-            415,
-            404,
             404
         ]
     },
@@ -4565,11 +4763,17 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b2/Achievement_The_Deserter_icon.png",
         "description": "???",
         "unlock": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau",
-        "children": [],
+        "children": [
+            507,
+            515,
+            580,
+            581,
+            600,
+            617,
+            634
+        ],
         "parents": [
             415,
-            415,
-            405,
             405
         ]
     },
@@ -4582,7 +4786,6 @@
         "children": [],
         "parents": [
             531,
-            474,
             474
         ]
     },
@@ -4595,7 +4798,6 @@
         "children": [],
         "parents": [
             531,
-            475,
             475
         ]
     },
@@ -4608,7 +4810,6 @@
         "children": [],
         "parents": [
             531,
-            476,
             476
         ]
     },
@@ -4621,7 +4822,6 @@
         "children": [],
         "parents": [
             531,
-            477,
             477
         ]
     },
@@ -4634,7 +4834,6 @@
         "children": [],
         "parents": [
             531,
-            478,
             478
         ]
     },
@@ -4647,7 +4846,6 @@
         "children": [],
         "parents": [
             531,
-            479,
             479
         ]
     },
@@ -4660,7 +4858,6 @@
         "children": [],
         "parents": [
             531,
-            480,
             480
         ]
     },
@@ -4673,7 +4870,6 @@
         "children": [],
         "parents": [
             531,
-            481,
             481
         ]
     },
@@ -4686,7 +4882,6 @@
         "children": [],
         "parents": [
             531,
-            482,
             482
         ]
     },
@@ -4699,7 +4894,6 @@
         "children": [],
         "parents": [
             531,
-            483,
             483
         ]
     },
@@ -4712,7 +4906,6 @@
         "children": [],
         "parents": [
             531,
-            484,
             484
         ]
     },
@@ -4725,7 +4918,6 @@
         "children": [],
         "parents": [
             531,
-            485,
             485
         ]
     },
@@ -4738,7 +4930,6 @@
         "children": [],
         "parents": [
             531,
-            486,
             486
         ]
     },
@@ -4751,7 +4942,6 @@
         "children": [],
         "parents": [
             531,
-            487,
             487
         ]
     },
@@ -4764,7 +4954,6 @@
         "children": [],
         "parents": [
             531,
-            488,
             488
         ]
     },
@@ -4777,7 +4966,6 @@
         "children": [],
         "parents": [
             531,
-            489,
             489
         ]
     },
@@ -4790,7 +4978,6 @@
         "children": [],
         "parents": [
             531,
-            490,
             490
         ]
     },
@@ -4800,11 +4987,11 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a1/Achievement_Bloody_Mary_icon.png",
         "description": "Unlocked a new challenge.",
         "unlock": "Unlock Bethany , Blood Bag , and It Lives!",
-        "children": [],
+        "children": [
+            518
+        ],
         "parents": [
             404,
-            404,
-            147,
             147,
             515
         ]
@@ -4815,13 +5002,13 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c2/Achievement_Baptism_by_Fire_icon.png",
         "description": "Unlocked a new challenge.",
         "unlock": "Defeat Satan as Bethany , defeat Mom's Heart 11 times, and unlock Maggy's Faith",
-        "children": [],
+        "children": [
+            519
+        ],
         "parents": [
             509,
             404,
-            404,
             511,
-            71,
             71
         ]
     },
@@ -4831,7 +5018,45 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Satan",
         "unlock": "",
-        "children": [],
+        "children": [
+            3,
+            43,
+            44,
+            45,
+            46,
+            48,
+            56,
+            72,
+            78,
+            117,
+            122,
+            127,
+            130,
+            220,
+            270,
+            311,
+            394,
+            418,
+            430,
+            509,
+            548,
+            550,
+            552,
+            554,
+            556,
+            558,
+            560,
+            562,
+            564,
+            566,
+            568,
+            570,
+            572,
+            574,
+            576,
+            578,
+            580
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -4841,7 +5066,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f3/Achievement_Isaac%27s_Awakening_icon.png",
         "description": "Unlocked a new challenge.",
         "unlock": "Defeat Mother",
-        "children": [],
+        "children": [
+            520
+        ],
         "parents": [
             529
         ]
@@ -4852,7 +5079,19 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Mom",
         "unlock": "",
-        "children": [],
+        "children": [
+            4,
+            5,
+            27,
+            166,
+            265,
+            266,
+            269,
+            272,
+            273,
+            274,
+            278
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -4862,7 +5101,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e3/Achievement_Seeing_Double_icon.png",
         "description": "Unlocked a new challenge.",
         "unlock": "Defeat Mother",
-        "children": [],
+        "children": [
+            521
+        ],
         "parents": [
             529
         ]
@@ -4873,7 +5114,31 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Mom's Heart",
         "unlock": "",
-        "children": [],
+        "children": [
+            8,
+            10,
+            11,
+            27,
+            32,
+            34,
+            139,
+            140,
+            141,
+            150,
+            157,
+            159,
+            160,
+            162,
+            234,
+            267,
+            279,
+            318,
+            342,
+            392,
+            404,
+            509,
+            512
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -4883,10 +5148,11 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3a/Achievement_Pica_Run_icon.png",
         "description": "Unlocked a new challenge.",
         "unlock": "Defeat Mom's Heart 11 times and unlock Marbles",
-        "children": [],
+        "children": [
+            522
+        ],
         "parents": [
             511,
-            386,
             386
         ]
     },
@@ -4896,7 +5162,42 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Boss Rush",
         "unlock": "",
-        "children": [],
+        "children": [
+            9,
+            70,
+            105,
+            108,
+            109,
+            110,
+            112,
+            114,
+            115,
+            125,
+            133,
+            222,
+            240,
+            314,
+            397,
+            421,
+            433,
+            618,
+            619,
+            620,
+            621,
+            622,
+            623,
+            624,
+            625,
+            626,
+            627,
+            628,
+            629,
+            630,
+            631,
+            632,
+            633,
+            634
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -4908,7 +5209,6 @@
         "unlock": "Unlock Tainted Forgotten",
         "children": [],
         "parents": [
-            488,
             488
         ]
     },
@@ -4918,7 +5218,10 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Lokii",
         "unlock": "",
-        "children": [],
+        "children": [
+            15,
+            164
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -4930,7 +5233,6 @@
         "unlock": "Unlock Tainted Cain",
         "children": [],
         "parents": [
-            476,
             476
         ]
     },
@@ -4940,7 +5242,46 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Isaac (Boss)",
         "unlock": "",
-        "children": [],
+        "children": [
+            20,
+            21,
+            29,
+            54,
+            57,
+            68,
+            76,
+            106,
+            107,
+            116,
+            121,
+            126,
+            129,
+            218,
+            268,
+            271,
+            281,
+            310,
+            393,
+            417,
+            429,
+            548,
+            550,
+            552,
+            554,
+            556,
+            558,
+            560,
+            562,
+            564,
+            566,
+            568,
+            570,
+            572,
+            574,
+            576,
+            578,
+            580
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -4952,7 +5293,6 @@
         "unlock": "Unlock Tainted Jacob",
         "children": [],
         "parents": [
-            490,
             490
         ]
     },
@@ -4962,7 +5302,16 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat It Lives!",
         "unlock": "",
-        "children": [],
+        "children": [
+            27,
+            318,
+            343,
+            344,
+            345,
+            392,
+            404,
+            508
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -4974,7 +5323,6 @@
         "unlock": "Unlock Tainted Eden",
         "children": [],
         "parents": [
-            483,
             483
         ]
     },
@@ -4984,7 +5332,10 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Death",
         "unlock": "",
-        "children": [],
+        "children": [
+            30,
+            404
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5003,7 +5354,21 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Isaac",
         "unlock": "",
-        "children": [],
+        "children": [
+            43,
+            49,
+            70,
+            106,
+            149,
+            179,
+            192,
+            270,
+            282,
+            296,
+            440,
+            441,
+            474
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5024,7 +5389,50 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat The Lamb",
         "unlock": "",
-        "children": [],
+        "children": [
+            47,
+            51,
+            52,
+            71,
+            73,
+            74,
+            111,
+            119,
+            124,
+            132,
+            149,
+            221,
+            239,
+            270,
+            277,
+            280,
+            313,
+            321,
+            326,
+            327,
+            337,
+            348,
+            396,
+            420,
+            432,
+            548,
+            550,
+            552,
+            554,
+            556,
+            558,
+            560,
+            562,
+            564,
+            566,
+            568,
+            570,
+            572,
+            574,
+            576,
+            578,
+            580
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5045,7 +5453,48 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat ??? (Boss)",
         "unlock": "",
-        "children": [],
+        "children": [
+            49,
+            50,
+            53,
+            55,
+            75,
+            77,
+            113,
+            118,
+            123,
+            128,
+            131,
+            157,
+            219,
+            238,
+            270,
+            277,
+            280,
+            312,
+            346,
+            347,
+            395,
+            419,
+            431,
+            548,
+            550,
+            552,
+            554,
+            556,
+            558,
+            560,
+            562,
+            564,
+            566,
+            568,
+            570,
+            572,
+            574,
+            576,
+            578,
+            580
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5066,7 +5515,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Ultra Pride",
         "unlock": "",
-        "children": [],
+        "children": [
+            77
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5087,7 +5538,11 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Baby Plum",
         "unlock": "",
-        "children": [],
+        "children": [
+            86,
+            409,
+            410
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5108,7 +5563,10 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Bumbino",
         "unlock": "",
-        "children": [],
+        "children": [
+            87,
+            327
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5127,7 +5585,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Reap Creep",
         "unlock": "",
-        "children": [],
+        "children": [
+            88
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5137,7 +5597,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat The Host",
         "unlock": "",
-        "children": [],
+        "children": [
+            104
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5147,7 +5609,31 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Mega Satan",
         "unlock": "",
-        "children": [],
+        "children": [
+            403,
+            270,
+            276,
+            277,
+            280,
+            340,
+            439,
+            601,
+            602,
+            606,
+            604,
+            605,
+            607,
+            608,
+            609,
+            610,
+            611,
+            612,
+            613,
+            614,
+            615,
+            616,
+            617
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5157,7 +5643,43 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Hush",
         "unlock": "",
-        "children": [],
+        "children": [
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            315,
+            320,
+            398,
+            407,
+            423,
+            435,
+            618,
+            619,
+            620,
+            621,
+            622,
+            623,
+            624,
+            625,
+            626,
+            627,
+            628,
+            629,
+            630,
+            631,
+            632,
+            633,
+            634
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5167,7 +5689,43 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Delirium",
         "unlock": "",
-        "children": [],
+        "children": [
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            338,
+            401,
+            425,
+            437,
+            584,
+            585,
+            586,
+            587,
+            588,
+            589,
+            590,
+            591,
+            592,
+            593,
+            594,
+            595,
+            596,
+            597,
+            598,
+            599,
+            600
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5177,7 +5735,26 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Ultra Greedier",
         "unlock": "",
-        "children": [],
+        "children": [
+            296,
+            297,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            400,
+            424,
+            436,
+            544
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5187,7 +5764,46 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Mother",
         "unlock": "",
-        "children": [],
+        "children": [
+            405,
+            440,
+            442,
+            444,
+            446,
+            448,
+            450,
+            452,
+            454,
+            456,
+            458,
+            460,
+            462,
+            464,
+            466,
+            468,
+            470,
+            472,
+            510,
+            511,
+            549,
+            551,
+            553,
+            555,
+            557,
+            559,
+            561,
+            563,
+            565,
+            567,
+            569,
+            571,
+            573,
+            575,
+            577,
+            579,
+            581,
+            635
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5197,7 +5813,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat The Siren",
         "unlock": "",
-        "children": [],
+        "children": [
+            408
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5207,7 +5825,42 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat The Beast",
         "unlock": "",
-        "children": [],
+        "children": [
+            441,
+            443,
+            445,
+            447,
+            449,
+            451,
+            453,
+            455,
+            457,
+            459,
+            461,
+            463,
+            465,
+            467,
+            469,
+            471,
+            473,
+            491,
+            492,
+            493,
+            494,
+            495,
+            496,
+            497,
+            498,
+            499,
+            500,
+            501,
+            502,
+            503,
+            504,
+            505,
+            506,
+            507
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5217,7 +5870,9 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/7a/BossDoorOpen.png",
         "description": "Defeat Hornfel",
         "unlock": "",
-        "children": [],
+        "children": [
+            546
+        ],
         "parents": [],
         "isBoss": true
     },
@@ -5230,7 +5885,6 @@
         "children": [],
         "parents": [
             528,
-            483,
             483
         ]
     },
@@ -5275,7 +5929,6 @@
             519,
             509,
             518,
-            474,
             474
         ]
     },
@@ -5288,7 +5941,6 @@
         "children": [],
         "parents": [
             529,
-            474,
             474
         ]
     },
@@ -5304,7 +5956,6 @@
             519,
             509,
             518,
-            475,
             475
         ]
     },
@@ -5317,7 +5968,6 @@
         "children": [],
         "parents": [
             529,
-            475,
             475
         ]
     },
@@ -5333,7 +5983,6 @@
             519,
             509,
             518,
-            476,
             476
         ]
     },
@@ -5346,7 +5995,6 @@
         "children": [],
         "parents": [
             529,
-            476,
             476
         ]
     },
@@ -5362,7 +6010,6 @@
             519,
             509,
             518,
-            477,
             477
         ]
     },
@@ -5375,7 +6022,6 @@
         "children": [],
         "parents": [
             529,
-            477,
             477
         ]
     },
@@ -5391,7 +6037,6 @@
             519,
             509,
             518,
-            478,
             478
         ]
     },
@@ -5404,7 +6049,6 @@
         "children": [],
         "parents": [
             529,
-            478,
             478
         ]
     },
@@ -5420,7 +6064,6 @@
             519,
             509,
             518,
-            479,
             479
         ]
     },
@@ -5433,7 +6076,6 @@
         "children": [],
         "parents": [
             529,
-            479,
             479
         ]
     },
@@ -5449,7 +6091,6 @@
             519,
             509,
             518,
-            480,
             480
         ]
     },
@@ -5462,7 +6103,6 @@
         "children": [],
         "parents": [
             529,
-            480,
             480
         ]
     },
@@ -5478,7 +6118,6 @@
             519,
             509,
             518,
-            481,
             481
         ]
     },
@@ -5491,7 +6130,6 @@
         "children": [],
         "parents": [
             529,
-            481,
             481
         ]
     },
@@ -5507,7 +6145,6 @@
             519,
             509,
             518,
-            482,
             482
         ]
     },
@@ -5520,7 +6157,6 @@
         "children": [],
         "parents": [
             529,
-            482,
             482
         ]
     },
@@ -5536,7 +6172,6 @@
             519,
             509,
             518,
-            483,
             483
         ]
     },
@@ -5549,7 +6184,6 @@
         "children": [],
         "parents": [
             529,
-            483,
             483
         ]
     },
@@ -5565,7 +6199,6 @@
             519,
             509,
             518,
-            484,
             484
         ]
     },
@@ -5578,7 +6211,6 @@
         "children": [],
         "parents": [
             529,
-            484,
             484
         ]
     },
@@ -5594,7 +6226,6 @@
             519,
             509,
             518,
-            485,
             485
         ]
     },
@@ -5607,7 +6238,6 @@
         "children": [],
         "parents": [
             529,
-            485,
             485
         ]
     },
@@ -5623,7 +6253,6 @@
             519,
             509,
             518,
-            486,
             486
         ]
     },
@@ -5636,7 +6265,6 @@
         "children": [],
         "parents": [
             529,
-            486,
             486
         ]
     },
@@ -5652,7 +6280,6 @@
             519,
             509,
             518,
-            487,
             487
         ]
     },
@@ -5665,7 +6292,6 @@
         "children": [],
         "parents": [
             529,
-            487,
             487
         ]
     },
@@ -5681,7 +6307,6 @@
             519,
             509,
             518,
-            488,
             488
         ]
     },
@@ -5694,7 +6319,6 @@
         "children": [],
         "parents": [
             529,
-            488,
             488
         ]
     },
@@ -5710,7 +6334,6 @@
             519,
             509,
             518,
-            489,
             489
         ]
     },
@@ -5723,7 +6346,6 @@
         "children": [],
         "parents": [
             529,
-            489,
             489
         ]
     },
@@ -5739,7 +6361,6 @@
             519,
             509,
             518,
-            490,
             490
         ]
     },
@@ -5752,7 +6373,6 @@
         "children": [],
         "parents": [
             529,
-            490,
             490
         ]
     },
@@ -5783,7 +6403,6 @@
         "children": [],
         "parents": [
             527,
-            474,
             474
         ]
     },
@@ -5796,7 +6415,6 @@
         "children": [],
         "parents": [
             527,
-            475,
             475
         ]
     },
@@ -5809,7 +6427,6 @@
         "children": [],
         "parents": [
             527,
-            476,
             476
         ]
     },
@@ -5822,7 +6439,6 @@
         "children": [],
         "parents": [
             527,
-            477,
             477
         ]
     },
@@ -5835,7 +6451,6 @@
         "children": [],
         "parents": [
             527,
-            478,
             478
         ]
     },
@@ -5848,7 +6463,6 @@
         "children": [],
         "parents": [
             527,
-            479,
             479
         ]
     },
@@ -5861,7 +6475,6 @@
         "children": [],
         "parents": [
             527,
-            480,
             480
         ]
     },
@@ -5874,7 +6487,6 @@
         "children": [],
         "parents": [
             527,
-            481,
             481
         ]
     },
@@ -5887,7 +6499,6 @@
         "children": [],
         "parents": [
             527,
-            482,
             482
         ]
     },
@@ -5900,7 +6511,6 @@
         "children": [],
         "parents": [
             527,
-            483,
             483
         ]
     },
@@ -5913,7 +6523,6 @@
         "children": [],
         "parents": [
             527,
-            484,
             484
         ]
     },
@@ -5926,7 +6535,6 @@
         "children": [],
         "parents": [
             527,
-            485,
             485
         ]
     },
@@ -5939,7 +6547,6 @@
         "children": [],
         "parents": [
             527,
-            486,
             486
         ]
     },
@@ -5952,7 +6559,6 @@
         "children": [],
         "parents": [
             527,
-            487,
             487
         ]
     },
@@ -5965,7 +6571,6 @@
         "children": [],
         "parents": [
             527,
-            488,
             488
         ]
     },
@@ -5978,7 +6583,6 @@
         "children": [],
         "parents": [
             527,
-            489,
             489
         ]
     },
@@ -5991,7 +6595,6 @@
         "children": [],
         "parents": [
             527,
-            490,
             490
         ]
     },
@@ -6004,7 +6607,6 @@
         "children": [],
         "parents": [
             525,
-            474,
             474
         ]
     },
@@ -6017,7 +6619,6 @@
         "children": [],
         "parents": [
             525,
-            475,
             475
         ]
     },
@@ -6030,7 +6631,6 @@
         "children": [],
         "parents": [
             525,
-            477,
             477
         ]
     },
@@ -6043,7 +6643,6 @@
         "children": [],
         "parents": [
             525,
-            478,
             478
         ]
     },
@@ -6056,7 +6655,6 @@
         "children": [],
         "parents": [
             525,
-            479,
             479
         ]
     },
@@ -6069,7 +6667,6 @@
         "children": [],
         "parents": [
             525,
-            480,
             480
         ]
     },
@@ -6079,10 +6676,11 @@
         "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ae/Achievement_Hell_Game_icon.png",
         "description": "???",
         "unlock": "Defeat Mega Satan as Tainted Azazel",
-        "children": [],
+        "children": [
+            64
+        ],
         "parents": [
             525,
-            481,
             481
         ]
     },
@@ -6095,7 +6693,6 @@
         "children": [],
         "parents": [
             525,
-            482,
             482
         ]
     },
@@ -6108,7 +6705,6 @@
         "children": [],
         "parents": [
             525,
-            483,
             483
         ]
     },
@@ -6121,7 +6717,6 @@
         "children": [],
         "parents": [
             525,
-            484,
             484
         ]
     },
@@ -6134,7 +6729,6 @@
         "children": [],
         "parents": [
             525,
-            485,
             485
         ]
     },
@@ -6147,7 +6741,6 @@
         "children": [],
         "parents": [
             525,
-            486,
             486
         ]
     },
@@ -6160,7 +6753,6 @@
         "children": [],
         "parents": [
             525,
-            487,
             487
         ]
     },
@@ -6173,7 +6765,6 @@
         "children": [],
         "parents": [
             525,
-            488,
             488
         ]
     },
@@ -6186,7 +6777,6 @@
         "children": [],
         "parents": [
             525,
-            489,
             489
         ]
     },
@@ -6199,7 +6789,6 @@
         "children": [],
         "parents": [
             525,
-            490,
             490
         ]
     },
@@ -6213,7 +6802,6 @@
         "parents": [
             526,
             512,
-            474,
             474
         ]
     },
@@ -6227,7 +6815,6 @@
         "parents": [
             526,
             512,
-            475,
             475
         ]
     },
@@ -6241,7 +6828,6 @@
         "parents": [
             526,
             512,
-            476,
             476
         ]
     },
@@ -6255,7 +6841,6 @@
         "parents": [
             526,
             512,
-            477,
             477
         ]
     },
@@ -6269,7 +6854,6 @@
         "parents": [
             526,
             512,
-            478,
             478
         ]
     },
@@ -6283,7 +6867,6 @@
         "parents": [
             526,
             512,
-            479,
             479
         ]
     },
@@ -6297,7 +6880,6 @@
         "parents": [
             526,
             512,
-            480,
             480
         ]
     },
@@ -6311,7 +6893,6 @@
         "parents": [
             526,
             512,
-            481,
             481
         ]
     },
@@ -6325,7 +6906,6 @@
         "parents": [
             526,
             512,
-            482,
             482
         ]
     },
@@ -6339,7 +6919,6 @@
         "parents": [
             526,
             512,
-            483,
             483
         ]
     },
@@ -6353,7 +6932,6 @@
         "parents": [
             526,
             512,
-            484,
             484
         ]
     },
@@ -6367,7 +6945,6 @@
         "parents": [
             526,
             512,
-            485,
             485
         ]
     },
@@ -6381,7 +6958,6 @@
         "parents": [
             526,
             512,
-            486,
             486
         ]
     },
@@ -6395,7 +6971,6 @@
         "parents": [
             526,
             512,
-            487,
             487
         ]
     },
@@ -6409,7 +6984,6 @@
         "parents": [
             526,
             512,
-            488,
             488
         ]
     },
@@ -6423,7 +6997,6 @@
         "parents": [
             526,
             512,
-            489,
             489
         ]
     },
@@ -6437,7 +7010,6 @@
         "parents": [
             526,
             512,
-            490,
             490
         ]
     },

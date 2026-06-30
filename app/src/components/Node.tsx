@@ -1,19 +1,32 @@
-import type { Achievement } from "../types";
+import React from 'react'
+import type { ElkNode } from 'elkjs'
+import { useStore } from '../store'
 
-export function Node({ achievement, unlocked }: { achievement: Achievement, unlocked?: number[] }) {
-    const isBoss = achievement.image.includes("BossRoomDoor")
-    const isUnlocked = !unlocked || isBoss || unlocked[achievement.id - 1] === 1
+interface AchievementNodeProps {
+  node: ElkNode
+}
 
-    return (
-        <div className={`flex items-center gap-2 ${isUnlocked ? "" : "grayscale"}`}>
+export const Node = React.memo(({ node }: AchievementNodeProps) => {
+  const achievement = useStore((s) => s.achievementMap[Number(node.id)])
+  const unlocked = useStore((s) => s.unlocked)
+
+  if (!achievement) return null
+
+const isBoss = achievement.image.includes("BossRoomDoor")
+  const isUnlocked = !unlocked || isBoss || unlocked[achievement.id - 1] === 1
+
+  return (
+    <div style={{ position: 'absolute', left: node.x, top: node.y }}>
+      <div className={`flex items-center gap-2 ${isUnlocked ? "" : "grayscale"}`}>
             <img
                 src={achievement.image}
                 alt={achievement.name}
                 decoding="async"
                 loading="lazy"
-                className="w-8 h-8 bg-[#16171d]"
+                style={{imageRendering: "pixelated"}}
+                className="w-[64px] h-[64px] bg-[#16171d]"
             />
-            <p className="text-gray-500">{achievement.name}</p>
         </div>
-    )
-}
+    </div>
+  )
+})
