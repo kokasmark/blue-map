@@ -2,6 +2,7 @@ import React from 'react'
 import type { ElkEdge } from 'elkjs'
 import { useStore, useEdgeUIState, useAchievementMap, useLayout } from '../store'
 import { getAncestors } from '../utils'
+import { createPortal } from 'react-dom'
 
 function sectionToPath(section: any): string {
     const { startPoint, endPoint, bendPoints = [] } = section
@@ -9,75 +10,119 @@ function sectionToPath(section: any): string {
     return points.map((p: any, i: number) => `${i === 0 ? 'M' : 'L'}${p.x},${p.y}`).join(' ')
 }
 
+export function EdgeTooltipContainer() {
+  const hoveredEdge = useStore((s) => s.hoveredEdge)
+  const achievementMap = useAchievementMap()
+  const transform = useStore((s) => s.transform)
+  const mousePos = useStore((s) => s.mousePos)
+
+  if (!hoveredEdge) return null
+
+  const targetId = parseInt(hoveredEdge.split('-')[1])
+  const targetAch = achievementMap[targetId]
+  if (!targetAch) return null
+
+  const isUnlocked = !!targetAch.isUnlocked
+  const isUnlockable = !!targetAch.isUnlockable
+  const color = isUnlocked ? '#86efac' : isUnlockable ? '#fef08a' : 'white'
+
+  const screenX = mousePos.x * transform.scale + transform.x
+  const screenY = mousePos.y * transform.scale + transform.y
+
+  return createPortal(
+    <div
+      style={{
+        position: 'fixed',
+        left: screenX,
+        top: screenY,
+        zIndex: 9999,
+        pointerEvents: 'all',
+      }}
+    >
+      <EdgeTooltip edgeId={hoveredEdge} color={color} />
+    </div>,
+    document.body,
+  )
+}
+
+
 export const EdgeTooltip = React.memo(({ edgeId, color }: { edgeId: string; color: string }) => {
-    const achievementMap = useAchievementMap()
-    const layout = useLayout()
-    const graphRef = useStore((s) => s.graphRef)
-    const mousePos = useStore((s) => s.mousePos)
-    const transform = useStore((s) => s.transform)
-    const setHoveredEdge = useStore((s) => s.setHoveredEdge)
+  const achievementMap = useAchievementMap()
+  const layout = useLayout()
+  const graphRef = useStore((s) => s.graphRef)
+  const mousePos = useStore((s) => s.mousePos)
+  const transform = useStore((s) => s.transform)
+  const setHoveredEdge = useStore((s) => s.setHoveredEdge)
 
-    const targetId = parseInt(edgeId.split('-')[1])
-    const targetAch = achievementMap[targetId]
-    if (!targetAch || !layout) return null
+  const targetId = parseInt(edgeId.split('-')[1])
+  const targetAch = achievementMap[targetId]
+  if (!targetAch || !layout) return null
 
-    const chains = getAncestors(achievementMap, targetAch)
+  const chains = getAncestors(achievementMap, targetAch)
 
-    return (
-        <foreignObject
-            x={mousePos.x}
-            y={mousePos.y}
-            width={500}
-            height={60}
-            style={{ overflow: 'visible', pointerEvents: 'all', zIndex: 200 }}
-        >
-            <div
-                className="flex flex-col w-fit gap-2.5 px-4 py-3 rounded-md bg-black border"
-                style={{
-                    background: 'rgba(10,10,12,0.92)',
-                    borderColor: color,
-                    boxShadow: `0 0 20px ${color}22, inset 0 1px 0 rgba(255,255,255,0.06)`,
-                }}
-            >
-                <p className="text-xs font-semibold tracking-wide" style={{ color }}>{targetAch.name}</p>
-                <p className="text-[11px] text-white/40 leading-relaxed max-w-[280px]">{targetAch.unlock}</p>
+  return (
+    <foreignObject
+      x={mousePos.x}
+      y={mousePos.y}
+      width={320}
+      height={400}
+      style={{ overflow: 'visible', pointerEvents: 'all', zIndex: 200 }}
+    >
+      <div
+        className="flex flex-col gap-2.5 px-4 py-3 rounded-md border"
+        style={{
+          margin: 8,
+          width: 320,
+          minHeight: 100,
+          transformOrigin: 'top left',
+          background: 'rgba(10,10,12,0.92)',
+          borderColor: color,
+          boxShadow: `0 0 20px ${color}22, inset 0 1px 0 rgba(255,255,255,0.06)`,
+        }}
+      >
+        <p className="text-xs font-semibold tracking-wide truncate" style={{ color }}>
+          {targetAch.name} #{targetAch.id}
+        </p>
+        <p className="text-[11px] text-white/40 leading-relaxed line-clamp-3">
+          {targetAch.unlock}
+        </p>
 
-                {chains.length > 0 && (
-                    <div className="flex flex-col gap-1.5 pt-2 border-t border-white/10">
-                        {chains.map((chain, i) => (
-                            <div key={i} className="flex items-center gap-1.5">
-                                {chain.map((ach, j) => (
-                                    <React.Fragment key={ach.id}>
-                                        <img
-                                            onClick={() => {
-                                                const node = layout.children?.find((n) => n.id === String(ach.id))
-                                                if (!node) return
-                                                graphRef.current?.focusPoint(
-                                                    node.x! + node.width! / 2,
-                                                    node.y! + node.height! / 2,
-                                                )
+        {chains.length > 0 && (
+          <div className="flex flex-col gap-1.5 pt-2 border-t border-white/10">
+            {chains.map((chain, i) => (
+              <div key={i} className="flex items-center gap-1.5 flex-wrap">
+                {chain.map((ach, j) => (
+                  <React.Fragment key={ach.id}>
+                    <img
+                      onClick={() => {
+                        const node = layout.children?.find((n) => n.id === String(ach.id))
+                        if (!node) return
 
-                                                setHoveredEdge(null)
-                                            }}
-                                            src={ach.image}
-                                            alt={ach.name}
-                                            className="w-6 h-6 cursor-pointer opacity-50 hover:opacity-100 transition-opacity rounded"
-                                            title={ach.name}
-                                        />
-                                        {j < chain.length - 1 && (
-                                            <span className="text-white/20 text-[10px]">→</span>
-                                        )}
-                                    </React.Fragment>
-                                ))}
-                            </div>
-                        ))}
-                    </div>
-                )}
-            </div>
-        </foreignObject>
-    )
+                        graphRef.current?.focusPoint(
+                          node.x! + node.width! / 2,
+                          node.y! + node.height! / 2,
+                        )
+                        
+                        setHoveredEdge(null)
+                      }}
+                      src={ach.image}
+                      alt={ach.name}
+                      className="w-6 h-6 cursor-pointer opacity-50 hover:opacity-100 transition-opacity rounded shrink-0"
+                      title={ach.name}
+                    />
+                    {j < chain.length - 1 && (
+                      <span className="text-white/20 text-md font-medium">→</span>
+                    )}
+                  </React.Fragment>
+                ))}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </foreignObject>
+  )
 })
-
 
 interface EdgePathProps {
     edge: ElkEdge & { sections?: any[] }
@@ -101,12 +146,12 @@ export const Edge = React.memo(({ edge }: EdgePathProps) => {
         : baseColor
 
     const isHovered = hoveredEdge === edge.id
-    const arrowId = isUnlocked ? 'url(#arrow-unlocked)' : 'url(#arrow-locked)'
+    const arrowId = isUnlocked ? 'url(#arrow-unlocked)' : isUnlockable ? 'url(#arrow-unlockable)' : 'url(#arrow-locked)'
 
     return (
         <>
             {edge.sections?.map((section: any, i: number) => (
-                <g key={`${edge.id}-${i}`}>
+                <g key={`${edge.id}-${i}`} style={{filter: isUnlocked || isUnlockable ? `drop-shadow(0px 0px 10px ${color})` : ''}}>
                     <path
                         d={sectionToPath(section)}
                         fill="none"
@@ -143,8 +188,6 @@ export const Edge = React.memo(({ edge }: EdgePathProps) => {
                     />
                 </g>
             ))}
-
-            {isHovered && <EdgeTooltip edgeId={edge.id} color={color} />}
         </>
     )
 })

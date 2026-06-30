@@ -2,24 +2,32 @@ import { COMPLETION } from "./constants";
 import type { CompletionTier, IAchievement } from "./types";
 
 export function getAncestors(
-    map: Record<number, IAchievement>,
-    achievement: IAchievement
+  map: Record<number, IAchievement>,
+  achievement: IAchievement
 ): IAchievement[][] {
-    if (achievement.parents.length === 0)
-        return [[achievement]];
+  if (achievement.parents.length === 0)
+    return [[achievement]]
 
-    const chains: IAchievement[][] = [];
+  const realParents = achievement.parents.filter(
+    id => !achievement.parents.some(otherId => otherId !== id && isAncestorOf(map, id, otherId))
+  )
 
-    for (const parentId of achievement.parents) {
-        const parent = map[parentId];
-        if (!parent) continue;
-
-        for (const chain of getAncestors(map, parent)) {
-            chains.push([...chain, achievement]);
-        }
+  const chains: IAchievement[][] = []
+  for (const parentId of realParents) {
+    const parent = map[parentId]
+    if (!parent) continue
+    for (const chain of getAncestors(map, parent)) {
+      chains.push([...chain, achievement])
     }
+  }
+  return chains
+}
 
-    return chains;
+function isAncestorOf(map: Record<number, IAchievement>, candidateId: number, ofId: number): boolean {
+  const of = map[ofId]
+  if (!of) return false
+  if (of.parents.includes(candidateId)) return true
+  return of.parents.some(p => isAncestorOf(map, candidateId, p))
 }
 
 export function getCompletion(unlocked: number[]) : {next: CompletionTier | null, current: CompletionTier | null, percent: number} {

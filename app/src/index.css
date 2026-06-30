@@ -52,6 +52,22 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(76, 76, 76); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(152, 152, 152); 
+}
 #root {
   width: 100vw;
   height: 100vh;

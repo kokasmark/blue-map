@@ -36,13 +36,19 @@ function updateMap(
     const map: Record<number, Achievement> = {}
 
     for (const a of achievements) {
-        const isUnlocked = !!unlocked && unlocked[a.id - 1] === 1
-        const isUnlockable =
-            !isUnlocked &&
-            !!unlocked &&
-            (a.parents?.length === 0 || a.parents?.every((id) => unlocked[id - 1] === 1))
+        const isUnlocked = !!unlocked && unlocked[a.id - 1] === 1 || a.essential
 
-        map[a.id] = { ...a, isUnlocked, isUnlockable }
+        map[a.id] = { ...a, isUnlocked, isUnlockable: false }
+    }
+
+    for (const a of achievements) {
+        const mapped = map[a.id]
+        const isUnlockable =
+            !mapped.isUnlocked &&
+            !!unlocked &&
+            (a.parents?.length === 0 || a.parents?.every((id) => map[id].isUnlocked))
+
+        map[a.id] = { ...mapped, isUnlockable }
     }
 
     return map
@@ -53,7 +59,7 @@ export const useStore = create<AchievementStore>((set, get) => ({
     unlocked: undefined,
     achievementMap: {},
     layout: null,
-    transform: { x: 0, y: 0, scale: 1 },
+    transform: { x: 0, y: 0, scale: 0.03 },
     hoveredEdge: null,
     mousePos: { x: 0, y: 0 },
     graphRef: React.createRef<GraphHandle>(),

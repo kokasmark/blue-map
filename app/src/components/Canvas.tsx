@@ -2,7 +2,7 @@ import React, { useMemo } from "react"
 import { Node } from "./Node"
 import { Graph } from "./Graph"
 import { SvgDefs } from "./SvgDefs"
-import { Edge } from "./Edge"
+import { Edge, EdgeTooltipContainer } from "./Edge"
 import { useLayout, useStore } from "../store"
 
 export const Canvas = React .memo(() => {
@@ -35,6 +35,7 @@ export const Canvas = React .memo(() => {
         >
           <SvgDefs />
           {edges}
+          <EdgeTooltipContainer />
         </svg>
         {nodes}
       </div>

@@ -12,11 +12,10 @@ export const Node = React.memo(({ node }: AchievementNodeProps) => {
 
   if (!achievement) return null
 
-const isBoss = achievement.image.includes("BossRoomDoor")
-  const isUnlocked = !unlocked || isBoss || unlocked[achievement.id - 1] === 1
+  const isUnlocked = !unlocked || achievement.isUnlocked;
 
   return (
-    <div style={{ position: 'absolute', left: node.x, top: node.y }}>
+    <div className='cursor-pointer' style={{ position: 'absolute', left: node.x, top: node.y }} title={`${achievement.name} #${achievement.id}`}>
       <div className={`flex items-center gap-2 ${isUnlocked ? "" : "grayscale"}`}>
             <img
                 src={achievement.image}
@@ -24,7 +23,7 @@ const isBoss = achievement.image.includes("BossRoomDoor")
                 decoding="async"
                 loading="lazy"
                 style={{imageRendering: "pixelated"}}
-                className="w-[64px] h-[64px] bg-[#16171d]"
+                className="w-[64px] h-[64px] bg-[#08080a]"
             />
         </div>
     </div>

@@ -22,12 +22,21 @@ export const Graph = forwardRef<GraphHandle, GraphProps>(({ layout, children }, 
   useImperativeHandle(ref, () => ({
     focusPoint: (x, y) => {
       const t = transformRef.current
-      const screenX = x * t.scale + t.x
-      const screenY = y * t.scale + t.y
+      const nodeSize = 64
+      const padding = 200
+
+      const targetScale = Math.min(
+        (window.innerWidth - padding) / nodeSize,
+        (window.innerHeight - padding) / nodeSize,
+        1.0,
+      )
+
+      const screenX = x * targetScale + t.x
+      const screenY = y * targetScale + t.y
       setTransform({
-        ...t,
         x: t.x + (window.innerWidth / 2 - screenX),
         y: t.y + (window.innerHeight / 2 - screenY),
+        scale: targetScale,
       })
     },
   }))
@@ -75,7 +84,7 @@ export const Graph = forwardRef<GraphHandle, GraphProps>(({ layout, children }, 
       onMouseMove={onMouseMove}
       onMouseUp={onMouseUp}
       onMouseLeave={onMouseUp}
-      onClick={()=>setHoveredEdge(null)}
+      onClick={() => setHoveredEdge(null)}
     >
       <div
         style={{

@@ -4,6 +4,7 @@ export interface IAchievement{
     image: string;
     description: string;
     unlock: string;
+    essential: boolean;
     children: number[]
     parents: number[]
 }
