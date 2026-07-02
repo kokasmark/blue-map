@@ -95,7 +95,7 @@ function App() {
   const layout = useLayout()
 
   useEffect(() => {
-    fetch('/achievements.json')
+    fetch('achievements.json')
       .then((r) => r.json())
       .then((data: IAchievement[]) => setAchievements(data))
   }, [setAchievements])
