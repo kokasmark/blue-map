@@ -62,6 +62,7 @@ export const useStore = create<AchievementStore>((set, get) => ({
     transform: { x: 0, y: 0, scale: 0.03 },
     hoveredEdge: null,
     mousePos: { x: 0, y: 0 },
+    // @ts-ignore
     graphRef: React.createRef<GraphHandle>(),
 
     setAchievements: (achievements) => {

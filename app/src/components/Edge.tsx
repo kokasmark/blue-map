@@ -51,7 +51,6 @@ export const EdgeTooltip = React.memo(({ edgeId, color }: { edgeId: string; colo
   const layout = useLayout()
   const graphRef = useStore((s) => s.graphRef)
   const mousePos = useStore((s) => s.mousePos)
-  const transform = useStore((s) => s.transform)
   const setHoveredEdge = useStore((s) => s.setHoveredEdge)
 
   const targetId = parseInt(edgeId.split('-')[1])

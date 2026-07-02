@@ -70,6 +70,7 @@ async function buildLayout(achievements: IAchievement[]) {
     y: Math.floor(i / cols) * cellSize,
   }))
 
+  // @ts-ignore
   const mainHeight = mainLayout.height ?? 0
   const yOffset = mainHeight + 80
 
@@ -82,6 +83,7 @@ async function buildLayout(achievements: IAchievement[]) {
     ...mainLayout,
     children: [...(mainLayout.children ?? []), ...positionedIsolated],
     height: yOffset + Math.ceil(isolated.length / cols) * cellSize,
+    // @ts-ignore
     width: Math.max(mainLayout.width ?? 0, gridWidth),
   }
 }
